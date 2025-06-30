@@ -1,9 +1,7 @@
 package web.application.controller;
 
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import web.application.exceptions.RecursoNaoEncontrado;
 import web.application.model.Produto;
 import web.application.service.ProdutoService;
 

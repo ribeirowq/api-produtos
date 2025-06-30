@@ -6,11 +6,9 @@ import web.application.model.Produto;
 import web.application.repository.ProdutoRepository;
 
 import java.util.List;
-import java.util.Optional;
-
 @Service
 public class ProdutoService {
-    private ProdutoRepository produtoRepository;
+    private final ProdutoRepository produtoRepository;
 
     public ProdutoService(ProdutoRepository produtoRepository) {
         this.produtoRepository = produtoRepository;
